@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme.Dialog.RoundedBackground" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/rounded_white_bg_dialog_shape</item>
+        <!--横屏的时候，对话框的宽-->
+        <item name="android:windowMinWidthMajor">60%</item>
+        <!--竖屏的时候，对话框的宽-->
+        <item name="android:windowMinWidthMinor">85%</item>
+    </style>
+
+    <style name="WebViewTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+</resources>

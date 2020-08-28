@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.d.policydialog" >
+
+    <application>
+        <activity
+            android:name=".WebViewActivity"
+            android:theme="@style/WebViewTheme"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>

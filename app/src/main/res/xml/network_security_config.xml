@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--9.0Http可以使用-->
+    <base-config cleartextTrafficPermitted="true" />
+    <!--<domain-EUConfig cleartextTrafficPermitted="true">-->
+        <!--&lt;!&ndash; 指定域名的https可用&ndash;&gt;-->
+        <!--<domain includeSubdomains="true">www.pgyer.com</domain>-->
+        <!--<domain includeSubdomains="true">app-global.pgyer.com</domain>-->
+    <!--</domain-EUConfig>-->
+
+</network-security-config>
